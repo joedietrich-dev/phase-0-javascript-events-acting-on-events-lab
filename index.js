@@ -1,8 +1,9 @@
+// Your code here
 function moveDodgerLeft() {
-    const dodger = document.getElementById('dodger');
-    const dodgerOldPosition = parseInt(dodger.style.left.replace('px', ''), 10);
-    const dodgerNewPosition = dodgerOldPosition === 0 ? 0 : dodgerOldPosition - 1;
-    dodger.style.left = dodgerNewPosition + 'px';
+  const dodger = document.getElementById('dodger');
+  const dodgerOldPosition = parseInt(dodger.style.left.replace('px', ''), 10);
+  const dodgerNewPosition = dodgerOldPosition === 0 ? 0 : dodgerOldPosition - 1;
+  dodger.style.left = dodgerNewPosition + 'px';
 }
 
 function moveDodgerRight() {
